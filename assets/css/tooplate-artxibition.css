@@ -275,13 +275,13 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #67788d;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 700;
   float: left;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 .logo{
   font-size: 10px;
@@ -584,10 +584,11 @@ header
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 700px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
+ 
 }
 
 
@@ -802,7 +803,7 @@ Show Events Carousel
   margin-left: 5%;
   width: 20%;
   height: 80px;
-  background-color: #d0cbb0;
+  background-color: #c4c4d1ee;
   border-style: hidden;
   font-size: 500%;
   animation: move-up-down 3s infinite;
@@ -814,7 +815,7 @@ Show Events Carousel
   margin-left: 5%;
   width: 20%;
   height: 80px;
-  background-color: #d0cbb0;
+  background-color: #c4c4d1ee;
   border-style: hidden;
   font-size: 500%;   
 }
@@ -825,7 +826,7 @@ Show Events Carousel
   margin-left: 5%;
   width: 20%;
   height: 80px;
-  background-color: #d0cbb0;
+  background-color: #c4c4d1ee;
   border-style: hidden;
   font-size: 500%;
   animation: move-up-down 3s infinite;
@@ -845,7 +846,7 @@ Amazing Venues
 .amazing-venues .left-content h4 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #0b26ee;
   margin-bottom: 20px;
 }
 
@@ -854,14 +855,14 @@ Amazing Venues
 }
 
 .amazing-venues .right-content h5 i {
-  color: #656c74;
+  color: #3037b9;
   margin-right: 5px;
 }
 
 .amazing-venues .right-content h5 {
   font-size: 22px;
   font-weight: 800;
-  color: #656c74;
+  color: #3037b9;
   margin-bottom: 25px;
 }
 
@@ -900,7 +901,7 @@ Venues & Tickets
 }
 
 .venue-item .down-content {
-  background-color: #d0cbb0;
+  background-color: #c4c4d1ee;
   position: relative;
   display: inline-block;
   z-index: 1;
@@ -990,14 +991,14 @@ Coming Events
 */
 
 .coming-events {
-  background-color: #d0cbb0;
+  background-color: #c4c4d1ee;
   padding: 30px 2px 30px 50px;   
   
   
 }
 
 .coming-events2 {
-  background-color: #d0cbb0;
+  background-color: #c4c4d1ee;
   padding: 30px 12px 30px 50px;
 }
 
